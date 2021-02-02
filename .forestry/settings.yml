@@ -14,8 +14,6 @@ sections:
   match: "**/*"
   templates:
   - post
-- type: heading
-  label: Content
 - type: directory
   path: content/post
   label: Posts
@@ -23,14 +21,14 @@ sections:
   match: "**/*"
   templates:
   - post
-- type: heading
-  label: Data
 - type: directory
   path: config/_default
   label: Config
   create: all
   match: "**/*"
   new_doc_ext: yaml
+- type: heading
+  label: Data
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
