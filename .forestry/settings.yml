@@ -4,6 +4,13 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: ''
+  label: 'recenzioni '
+  create: all
+  match: "**/*"
+  templates:
+  - post
 - type: heading
   label: Content
 - type: document
